@@ -47,9 +47,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'API',
+        title: 'API DOCS',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'calculatuindemizacion.es',
           src: 'img/logo.svg',
         },
         items: [
