@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcalculatuindemnizacion_api_docs=self.webpackChunkcalculatuindemnizacion_api_docs||[]).push([[33],{6454:function(a){a.exports=JSON.parse('{"allTagsPath":"/calculatuindemnizacion-api-docs/blog/tags","slug":"/calculatuindemnizacion-api-docs/blog/tags/hello","name":"hello","count":2,"permalink":"/calculatuindemnizacion-api-docs/blog/tags/hello"}')}}]);
