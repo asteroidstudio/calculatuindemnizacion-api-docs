@@ -39,7 +39,7 @@ Por ejemplo:
 
 ```json title="Status: 200 Ok"
 {
-    "id": 24870,
+    "id": 24870
 }
 ```
 
