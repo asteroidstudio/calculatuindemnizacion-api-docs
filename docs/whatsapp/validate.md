@@ -12,22 +12,22 @@ Esta acción retorna el identificador del cliente asociado a un DNI y un número
 GET /whatsapp/clients/validate
 ```
 
-### Parámetros
+### Parámetros GET
 
 Nombre | Tipo |  Comentarios 
 --- | --- | --- | 
 **dni** | _string_ | DNI del cliente. Obligatorio
 **phone** | _string_ | Número de teléfono del cliente. Numérico sin espacios. Obligatorio
 
-### Ejemplo:
+### Ejemplo
 
 ```shell
-curl --location --request GET 'https://calculatuindemnizacion.es/api/whatsapp/validate?dni={dni}&phone={phone}'  \
+curl --location --request GET 'https://calculatuindemnizacion.es/api/whatsapp/clients/validate?dni={dni}&phone={phone}'  \
 --header 'Authorization: Bearer {access_token}'
 ```
 
 :::note Nota
-En la llamada se debe sustituir `{access_token}`, `{dni}` y `{phone}` por los valores del **_access_token_**, **dni** y **phone** real
+En la llamada anterior se debe sustituir `{access_token}`, `{dni}` y `{phone}` por los valores del **_access_token_**, **dni** y **phone** real
 :::
 
 ## Respuesta correcta

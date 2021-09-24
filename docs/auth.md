@@ -21,7 +21,7 @@ curl --location --request GET 'https://calculatuindemnizacion.es/api/me' \
 --header 'Authorization: Bearer {access_token}'
 ```
 :::note Nota
-En la llamada se debe sustituir `{access_token}` por el valor del **_access_token_** real
+En la llamada anterior se debe sustituir `{access_token}` por el valor del **_access_token_** real
 :::
 
 :::caution Alerta

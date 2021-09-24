@@ -16,7 +16,7 @@ GET /me
 
 La acción no tiene parámetros
 
-### Ejemplo:
+### Ejemplo
 
 ```shell
 curl --location --request GET 'https://calculatuindemnizacion.es/api/me' \
@@ -24,7 +24,7 @@ curl --location --request GET 'https://calculatuindemnizacion.es/api/me' \
 ```
 
 :::note Nota
-En la llamada se debe sustituir `{access_token}` por el valor del **_access_token_** real
+En la llamada anterior se debe sustituir `{access_token}` por el valor del **_access_token_** real
 :::
 
 ## Respuesta correcta
