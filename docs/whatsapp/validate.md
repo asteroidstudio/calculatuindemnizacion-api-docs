@@ -22,9 +22,13 @@ Nombre | Tipo |  Comentarios
 ### Ejemplo:
 
 ```shell
-curl --location --request GET 'https://calculatuindemnizacion.es/api/whatsapp/validate?dni=123456789A&phone=600000000'  \
---header 'Authorization: Bearer 012345abcdef'
+curl --location --request GET 'https://calculatuindemnizacion.es/api/whatsapp/validate?dni={dni}&phone={phone}'  \
+--header 'Authorization: Bearer {access_token}'
 ```
+
+:::note Nota
+En la llamada se debe sustituir `{access_token}`, `{dni}` y `{phone}` por los valores del **_access_token_**, **dni** y **phone** real
+:::
 
 ## Respuesta correcta
 

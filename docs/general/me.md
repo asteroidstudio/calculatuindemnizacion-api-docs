@@ -20,8 +20,12 @@ La acción no tiene parámetros
 
 ```shell
 curl --location --request GET 'https://calculatuindemnizacion.es/api/me' \
---header 'Authorization: Bearer 012345abcdef'
+--header 'Authorization: Bearer {access_token}'
 ```
+
+:::note Nota
+En la llamada se debe sustituir `{access_token}` por el valor del **_access_token_** real
+:::
 
 ## Respuesta correcta
 

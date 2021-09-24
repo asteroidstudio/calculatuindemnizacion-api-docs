@@ -18,10 +18,10 @@ Por ejemplo:
 
 ```shell
 curl --location --request GET 'https://calculatuindemnizacion.es/api/me' \
---header 'Authorization: Bearer 012345abcdef'
+--header 'Authorization: Bearer {access_token}'
 ```
 :::note Nota
-El **_access_token_** utilizado en el ejemplo anterior no existe realmente, es únicamente para ilustrar el ejemplo
+En la llamada se debe sustituir `{access_token}` por el valor del **_access_token_** real
 :::
 
 :::caution Alerta
