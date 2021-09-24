@@ -12,7 +12,7 @@ Para un cliente retorna el estado en que está la reclamación
 GET /whatsapp/clients/{id}/status
 ```
 
-### Parámetros
+### Parámetros URL
 
 Nombre | Tipo |  Comentarios 
 --- | --- | --- | 

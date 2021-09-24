@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'calculatuindemizacion.es API DOCS',
   tagline: '',
-  url: 'https://asteroidstudio.github.io',
-  baseUrl: '/calculatuindemnizacion-api-docs/',
+  url: 'https://api-docs.calculatuindemnizacion.es',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
