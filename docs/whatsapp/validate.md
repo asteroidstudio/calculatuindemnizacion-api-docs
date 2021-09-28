@@ -17,7 +17,7 @@ GET /whatsapp/clients/validate
 Nombre | Tipo |  Comentarios 
 --- | --- | --- | 
 **dni** | _string_ | DNI del cliente. Obligatorio
-**phone** | _string_ | Número de teléfono del cliente. Numérico sin espacios. Obligatorio
+**phone** | _string_ | Número de teléfono del cliente. Obligatorio
 
 ### Ejemplo
 
