@@ -16,7 +16,7 @@ POST /whatsapp/clients/{id}/documents/store
 
 Nombre | Tipo |  Comentarios 
 --- | --- | --- | 
-**id** | _int_ | Identificador del usuario. Obligatorio
+**id** | _string_ | Identificador del usuario. Puede contener números y guión medio. Obligatorio
 
 ### Parámetros POST
 

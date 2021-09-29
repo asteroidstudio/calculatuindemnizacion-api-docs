@@ -36,14 +36,14 @@ La respuesta retorna los siguientes valores:
 
 Nombre | Tipo |  Comentarios 
 --- | --- | --- | 
-**id** | _int_ | Identificador del cliente
+**id** | _string_ | Identificador del usuario. Puede contener números y guión medio
 
 
 Por ejemplo:
 
 ```json title="Status: 200 Ok"
 {
-    "id": 24870
+    "id": 24870-2
 }
 ```
 
