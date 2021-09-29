@@ -27,7 +27,7 @@ Nombre | Tipo |  Comentarios
 ### Ejemplo
 
 ```shell
-curl --location --request POST 'http://dev.calculatuindemnizacion.es/api/whatsapp/clients/{id}/documents/store' \
+curl --location --request POST 'https://calculatuindemnizacion.es/api/whatsapp/clients/{id}/documents/store' \
 --form 'urls="{urls}"' \
 --header 'Authorization: Bearer {access_token}'
 ```
