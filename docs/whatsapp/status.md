@@ -33,20 +33,31 @@ En la llamada anterior se debe sustituir `{access_token}` e `{id}` por los valor
 
 La respuesta retorna los siguientes valores:
 
-:::danger TODO
-:::
-
-
 Nombre | Tipo |  Comentarios 
 --- | --- | --- | 
-**id** | _int_ | Identificador del cliente
+**status** | _string_ | Código de estado. Puede ser vacío o algún valor de entre los [códigos de estado](#status-codes) disponibles.
 
+### Códigos de estado {#status-codes}
 
-Por ejemplo:
+Los códigos disponibles son `RENUNCIA`, `DOCUMENTACION`, `SEGUIMIENTO_MEDICO`, `SERVICIOS_MEDICOS`, `NEGOCIANDO_CIA`, `PAGO_CIA`, `RECOBRO`, `SIN_CONFORMIDAD`, `CIERRE`, `VENIA`, `MONITORIO`, `FORENSE`, `JUDICIAL`
+
+:::caution Aviso
+El código puede tener valor **vacío** `""` si el cliente no está en ninguno de los estados disponibles
+:::
+
+Ejemplo (devuelve un código disponible):
 
 ```json title="Status: 200 Ok"
 {
-    "id": 24870
+    "status": "RENUNCIA"
+}
+```
+
+Ejemplo (devuelve vacío):
+
+```json title="Status: 200 Ok"
+{
+    "status": ""
 }
 ```
 
