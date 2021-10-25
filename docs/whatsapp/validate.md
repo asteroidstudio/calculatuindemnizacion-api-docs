@@ -49,10 +49,18 @@ Por ejemplo:
 
 ## Respuesta incorrecta
 
-Por ejemplo:
+Si no se encuentra el dni de cliente se retorna el código de estado `404`:
 
 ```json title="Status: 404 Not found"
 {
     "message": "Client not found"
+}
+```
+
+Si el dni del cliente y el teléfono no coinciden se retorna el código de estado `499`:
+
+```json title="Status: 499 unknown status"
+{
+    "message": "dni and phone do not match"
 }
 ```
