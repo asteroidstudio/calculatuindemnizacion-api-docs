@@ -43,13 +43,13 @@ Por ejemplo:
 {
     "documents": [
         {
-            "id": 1,
-            "url": "Designa firmada CTI",
+            "id": 562,
+            "url": "https://calculatuindemnizacion.es/documents/562/preview",
             "validated": true
         },
         {
-            "id": 2, 
-            "url": "Informe de Urgencias",
+            "id": 564, 
+            "url": "https://calculatuindemnizacion.es/documents/564/preview",
             "validated": false
         },
 
