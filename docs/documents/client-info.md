@@ -37,6 +37,8 @@ Nombre | Tipo | Comentarios
 --- | --- | --- |
 `id` | _int_ | Identificador del cliente
 `name` | _string_ | Nombre completo del cliente
+`email` | _string_ | Email del cliente
+`phone` | _string_ | Teléfono del cliente
 `shortlink_url` | _string_ | URL al shortlink del cliente o _null_ si no tiene
 `shortlink_expiration_date` | _bool_ | Fecha de expiración del shorlink en formato _YYYY-MM-DD HH:mm:ss_ o _null_ si no tiene shortlink
 `profile_url` | _string_ | URL de la ficha de cliente
@@ -47,6 +49,8 @@ Por ejemplo:
 {
     "id": 70,
     "name": "John Doe",
+    "email": "john.doe@email.net",
+    "phone": "+34600123456",
     "shortlink_url": "https://bit.ly/s67icyCc",
     "shortlink_expiration_date": "2022-08-17 22:38:35",
     "profile_url": "https://calculatuindemnizacion.es/clients/70/show"
