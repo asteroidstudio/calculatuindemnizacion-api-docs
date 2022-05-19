@@ -16,13 +16,13 @@ POST /whatsapp/clients/{id}/documents/store
 
 Nombre | Tipo |  Comentarios 
 --- | --- | --- | 
-**id** | _string_ | Identificador del usuario. Puede contener números y guión medio. Obligatorio
+`id` | _string_ | Identificador del usuario. Puede contener números y guión medio. Obligatorio
 
 ### Parámetros POST
 
 Nombre | Tipo |  Comentarios 
 --- | --- | --- | 
-**urls** | _string_ | Urls de los documentos separados por <code>&nbsp;\|&nbsp;</code>. Obligatorio. Por ejemplo: <code>ht<span>tps://</span>picsum.photos/id/10/640/400 \| ht<span>tps://</span>picsum.photos/id/1000/640/400</code>
+`urls` | _string_ | Urls de los documentos separados por <code>&nbsp;\|&nbsp;</code>. Obligatorio. Por ejemplo: <code>ht<span>tps://</span>picsum.photos/id/10/640/400 \| ht<span>tps://</span>picsum.photos/id/1000/640/400</code>
 
 ### Ejemplo
 

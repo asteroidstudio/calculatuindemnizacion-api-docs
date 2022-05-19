@@ -16,8 +16,8 @@ GET /whatsapp/clients/validate
 
 Nombre | Tipo |  Comentarios 
 --- | --- | --- | 
-**dni** | _string_ | DNI del cliente. Obligatorio
-**phone** | _string_ | Número de teléfono del cliente. Obligatorio
+`dni` | _string_ | DNI del cliente. Obligatorio
+`phone` | _string_ | Número de teléfono del cliente. Obligatorio
 
 ### Ejemplo
 
@@ -36,7 +36,7 @@ La respuesta retorna los siguientes valores:
 
 Nombre | Tipo |  Comentarios 
 --- | --- | --- | 
-**id** | _string_ | Identificador del usuario. Puede contener números y guión medio
+`id` | _string_ | Identificador del usuario. Puede contener números y guión medio
 
 
 Por ejemplo:

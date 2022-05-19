@@ -16,7 +16,7 @@ GET /documents/get-by-client/{client_id}
 
 Nombre | Tipo |  Comentarios 
 --- | --- | --- | 
-**client_id** | _int_ | Identificador del cliente. Obligatorio
+`client_id` | _int_ | Identificador del cliente. Obligatorio
 
 ### Ejemplo
 
@@ -35,13 +35,13 @@ La respuesta retorna los siguientes valores:
 
 Nombre |  | Tipo | Comentarios 
 --- | --- | --- | --- |
-**documents** |  | _array_ | Lista de objetos con las siguientes campos:
-. | **id** | _int_ | Identificador del documento
-. | **url** | _string_ | URL para obtener/descargar documento
-. | **validated** | _bool_ | Si el documento ha sido validado
-. | **used** | _bool_ | Si el documento ha sido usado para generar otro documento
-. | **created_at** | _string_ | Fecha de creación del documento en formato _YYYY-MM-DD HH:mm:ss_
-. | **updated_at** | _string_ | Fecha de última modificación del documento en formato _YYYY-MM-DD HH:mm:ss_
+`documents` |  | _array_ | Lista de objetos con las siguientes campos:
+. | `id` | _int_ | Identificador del documento
+. | `url` | _string_ | URL para obtener/descargar documento
+. | `validated` | _bool_ | Si el documento ha sido validado
+. | `used` | _bool_ | Si el documento ha sido usado para generar otro documento
+. | `created_at` | _string_ | Fecha de creación del documento en formato _YYYY-MM-DD HH:mm:ss_
+. | `updated_at` | _string_ | Fecha de última modificación del documento en formato _YYYY-MM-DD HH:mm:ss_
 
 
 Por ejemplo:

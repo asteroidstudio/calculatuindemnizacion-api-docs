@@ -33,9 +33,9 @@ La respuesta retorna los siguientes valores:
 
 Nombre | | Tipo |  Comentarios 
 --- | --- | --- | --- |
-**types** | | _array_ | Lista de objetos con siguientes campos:
-. | **id** | _int_ | Identificador del documento
-. | **name** | _string_ | Nombre del tipo de documento
+`types` | | _array_ | Lista de objetos con siguientes campos:
+. | `id` | _int_ | Identificador del documento
+. | `name` | _string_ | Nombre del tipo de documento
 
 
 Por ejemplo:

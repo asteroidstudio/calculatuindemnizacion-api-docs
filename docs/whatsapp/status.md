@@ -16,7 +16,7 @@ GET /whatsapp/clients/{id}/status
 
 Nombre | Tipo |  Comentarios 
 --- | --- | --- | 
-**id** | _string_ | Identificador del usuario. Puede contener números y guión medio. Obligatorio
+`id` | _string_ | Identificador del usuario. Puede contener números y guión medio. Obligatorio
 
 ### Ejemplo
 
@@ -35,7 +35,7 @@ La respuesta retorna los siguientes valores:
 
 Nombre | Tipo |  Comentarios 
 --- | --- | --- | 
-**status** | _string_ | Código de estado. Puede ser vacío o algún valor de entre los [códigos de estado](#status-codes) disponibles.
+`status` | _string_ | Código de estado. Puede ser vacío o algún valor de entre los [códigos de estado](#status-codes) disponibles.
 
 ### Códigos de estado {#status-codes}
 

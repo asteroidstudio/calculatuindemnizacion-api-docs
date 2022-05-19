@@ -16,7 +16,7 @@ GET /documents/client-info/{client_id}
 
 Nombre | Tipo |  Comentarios 
 --- | --- | --- | 
-**client_id** | _int_ | Identificador del cliente. Obligatorio
+`client_id` | _int_ | Identificador del cliente. Obligatorio
 
 ### Ejemplo
 
@@ -35,11 +35,11 @@ La respuesta retorna los siguientes valores:
 
 Nombre | Tipo | Comentarios 
 --- | --- | --- |
-**id** | _int_ | Identificador del cliente
-**name** | _string_ | Nombre completo del cliente
-**shortlink_url** | _string_ | URL al shortlink del cliente o _null_ si no tiene
-**shortlink_expiration_date** | _bool_ | Fecha de expiración del shorlink en formato _YYYY-MM-DD HH:mm:ss_ o _null_ si no tiene shortlink
-**profile_url** | _string_ | URL de la ficha de cliente
+`id` | _int_ | Identificador del cliente
+`name` | _string_ | Nombre completo del cliente
+`shortlink_url` | _string_ | URL al shortlink del cliente o _null_ si no tiene
+`shortlink_expiration_date` | _bool_ | Fecha de expiración del shorlink en formato _YYYY-MM-DD HH:mm:ss_ o _null_ si no tiene shortlink
+`profile_url` | _string_ | URL de la ficha de cliente
 
 Por ejemplo:
 

@@ -33,7 +33,7 @@ La respuesta retorna los siguientes valores:
 
 Nombre | Tipo |  Comentarios 
 --- | --- | --- | 
-**name** | _string_ | Nombre del desarollador
+`name` | _string_ | Nombre del desarollador
 
 
 
