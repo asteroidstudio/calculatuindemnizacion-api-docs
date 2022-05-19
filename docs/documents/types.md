@@ -31,9 +31,11 @@ En la llamada anterior se debe sustituir `{access_token}` por el valor de **_acc
 
 La respuesta retorna los siguientes valores:
 
-Nombre | Tipo |  Comentarios 
---- | --- | --- | 
-**types** | _array_ | Lista de objetos con las claves **id** y **name**
+Nombre | | Tipo |  Comentarios 
+--- | --- | --- | --- |
+**types** | | _array_ | Lista de objetos con siguientes campos:
+. | **id** | _int_ | Identificador del documento
+. | **name** | _string_ | Nombre del tipo de documento
 
 
 Por ejemplo:

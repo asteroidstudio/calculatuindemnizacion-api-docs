@@ -33,9 +33,16 @@ En la llamada anterior se debe sustituir `{access_token}` e `{id}` por los valor
 
 La respuesta retorna los siguientes valores:
 
-Nombre | Tipo |  Comentarios 
---- | --- | --- | 
-**documents** | _array_ | Lista de objetos con las claves **id**, **url** y **validated**
+Nombre |  | Tipo | Comentarios 
+--- | --- | --- | --- |
+**documents** |  | _array_ | Lista de objetos con las siguientes campos:
+. | **id** | _int_ | Identificador del documento
+. | **url** | _string_ | URL para obtener/descargar documento
+. | **validated** | _bool_ | Si el documento ha sido validado
+. | **used** | _bool_ | Si el documento ha sido usado para generar otro documento
+. | **created_at** | _string_ | Fecha de creación del documento en formato _YYYY-MM-DD HH:mm:ss_
+. | **updated_at** | _string_ | Fecha de última modificación del documento en formato _YYYY-MM-DD HH:mm:ss_
+
 
 Por ejemplo:
 
@@ -45,12 +52,18 @@ Por ejemplo:
         {
             "id": 562,
             "url": "https://calculatuindemnizacion.es/documents/562/preview",
-            "validated": true
+            "validated": true,
+            "used": false,
+            "created_at": "2022-02-17 15:57:20",
+            "updated_at": "2022-02-17 15:57:20"
         },
         {
             "id": 564, 
             "url": "https://calculatuindemnizacion.es/documents/564/preview",
-            "validated": false
+            "validated": false,
+            "used": true,
+            "created_at": "2022-02-17 16:46:39",
+            "updated_at": "2022-02-17 16:46:39",
         },
 
     ]
