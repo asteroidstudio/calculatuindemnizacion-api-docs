@@ -42,6 +42,7 @@ Nombre | Tipo | Comentarios
 --- | --- | --- |
 `id` | _int_ | Identificador del documento
 `url` | _string_ | URL para obtener/descargar documento
+`filename` | _string_ | Nombre del documento
 `validated` | _bool_ | Si el documento ha sido validado
 `used` | _bool_ | Si el documento ha sido usado para generar otro documento
 `created_at` | _string_ | Fecha de creación del documento en formato _YYYY-MM-DD HH:mm:ss_
@@ -53,6 +54,7 @@ Por ejemplo:
 {
     "id": 826,
     "url": "https://calculatuindemnizacion.es/documents/562/preview",
+    "filename": "cats.pdf",            
     "validated": true,
     "used": false,
     "created_at": "2022-05-23 18:28:57",

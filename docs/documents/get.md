@@ -38,6 +38,7 @@ Nombre |  | Tipo | Comentarios
 `documents` |  | _array_ | Lista de objetos con las siguientes campos:
 . | `id` | _int_ | Identificador del documento
 . | `url` | _string_ | URL para obtener/descargar documento
+. | `filename` | _string_ | Nombre del documento
 . | `validated` | _bool_ | Si el documento ha sido validado
 . | `used` | _bool_ | Si el documento ha sido usado para generar otro documento
 . | `created_at` | _string_ | Fecha de creación del documento en formato _YYYY-MM-DD HH:mm:ss_
@@ -52,6 +53,7 @@ Por ejemplo:
         {
             "id": 562,
             "url": "https://calculatuindemnizacion.es/documents/562/preview",
+            "filename": "cats.pdf",            
             "validated": true,
             "used": false,
             "created_at": "2022-02-17 15:57:20",
@@ -60,6 +62,7 @@ Por ejemplo:
         {
             "id": 564, 
             "url": "https://calculatuindemnizacion.es/documents/564/preview",
+            "filename": "dogs.pdf",
             "validated": false,
             "used": true,
             "created_at": "2022-02-17 16:46:39",
