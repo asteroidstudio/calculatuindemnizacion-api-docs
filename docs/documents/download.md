@@ -31,7 +31,7 @@ En la llamada anterior se debe sustituir `{access_token}` e `{id}` por los valor
 
 ## Respuesta correcta
 
-A diferencia de la mayoría de llamadas, la respuesta no tendrá formato json, sinó que directamente se retornará el contenido binario del documento con `Status: 200 Ok`
+A diferencia de la mayoría de llamadas, la respuesta correcta no tendrá formato json, sinó que directamente se retornará el contenido binario del documento con `Status: 200 Ok`
 
 ## Respuesta incorrecta
 
