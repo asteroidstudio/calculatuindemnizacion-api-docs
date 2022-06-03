@@ -37,8 +37,9 @@ Nombre |  | Tipo | Comentarios
 --- | --- | --- | --- |
 `documents` |  | _array_ | Lista de objetos con las siguientes campos:
 . | `id` | _int_ | Identificador del documento
-. | `preview_url` | _string_ | URL para previsualizar documento
-. | `download_url` | _string_ | URL para descargar documento
+. | `url` | _string_ | URL pública temporal para previsualizar documento
+. | `preview_url` | _string_ | URL privada para previsualizar documento
+. | `download_url` | _string_ | URL privada para descargar documento
 . | `filename` | _string_ | Nombre del documento
 . | `validated` | _bool_ | Si el documento ha sido validado
 . | `used` | _bool_ | Si el documento ha sido usado para generar otro documento
@@ -57,6 +58,7 @@ Por ejemplo:
     "documents": [
         {
             "id": 562,
+            "url": "https://calculatuindemnizacion.es/documents/562/preview?tk=123645",
             "preview_url": "https://calculatuindemnizacion.es/documents/562/preview",
             "download_url": "https://calculatuindemnizacion.es/documents/562/download",
             "filename": "cats.pdf",            
@@ -71,6 +73,7 @@ Por ejemplo:
         },
         {
             "id": 564, 
+            "url": "https://calculatuindemnizacion.es/documents/562/preview?tk=123f235",
             "preview_url": "https://calculatuindemnizacion.es/documents/564/preview",
             "download_url": "https://calculatuindemnizacion.es/documents/564/download",
             "filename": "dogs.pdf",
