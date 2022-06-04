@@ -9,7 +9,7 @@ Marcar un documento con validado, especificando un tipo de documento.
 ## URL
 
 ```
-PUT /documents/validate
+POST /documents/validate
 ```
 
 ### Parámetros PUT
@@ -23,11 +23,10 @@ Nombre | Tipo |  Comentarios
 ### Ejemplo
 
 ```shell
-curl --location --request PUT 'https://calculatuindemnizacion.es/api/documents/validate'  \
+curl --location --request POST 'https://calculatuindemnizacion.es/api/documents/validate'  \
 --header 'Authorization: Bearer {access_token}' \
---header 'Content-Type: application/x-www-form-urlencoded' \
---data-urlencode 'id={id}' \
---data-urlencode 'type={type}'
+--form 'id="{id}"' \
+--form 'type="{type}"'
 ```
 
 :::note Nota
