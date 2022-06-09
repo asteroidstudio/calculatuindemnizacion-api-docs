@@ -45,6 +45,7 @@ Nombre | Tipo | Comentarios
 `download_url` | _string_ | URL para descargar documento
 `filename` | _string_ | Nombre del documento
 `validated` | _bool_ | Si el documento ha sido validado
+`processed` | _bool_ | Si el documento está disponible para descargar
 `used` | _bool_ | Si el documento ha sido usado para generar otro documento
 `created_at` | _string_ | Fecha de creación del documento en formato _YYYY-MM-DD HH:mm:ss_
 `updated_at` | _string_ | Fecha de última modificación del documento en formato _YYYY-MM-DD HH:mm:ss_
@@ -62,6 +63,7 @@ Por ejemplo:
     "download_url": "https://calculatuindemnizacion.es/documents/562/download",
     "filename": "cats.pdf",            
     "validated": true,
+    "processed": false,
     "used": false,
     "created_at": "2022-02-17 15:57:20",
     "updated_at": "2022-02-17 15:57:20",
