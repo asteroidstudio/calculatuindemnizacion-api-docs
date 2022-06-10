@@ -17,7 +17,7 @@ POST /documents/upload
 Nombre | Tipo |  Comentarios 
 --- | --- | --- | 
 `client_id` | _int_ | Identificador del cliente. Obligatorio
-`type` | _int_ | Tipo de documento. Obligatorio
+`type` | _int_ | Tipo de documento. Puede ser nulo si se quiere subir un documento sin validar
 `file` | _file_ | Fichero a subir. Formato jpg, png, pdf, doc, docx, xls, xlsx, msg. Tamaño máximo 12MB. Obligatorio
 
 ### Ejemplo
