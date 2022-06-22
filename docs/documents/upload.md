@@ -19,6 +19,9 @@ Nombre | Tipo |  Comentarios
 `client_id` | _int_ | Identificador del cliente. Obligatorio
 `type` | _int_ | Tipo de documento. Puede ser nulo si se quiere subir un documento sin validar
 `file` | _file_ | Fichero a subir. Formato jpg, png, pdf, doc, docx, xls, xlsx, msg. Tamaño máximo 12MB. Obligatorio
+`notify` | _int_ | 1 para noticar el responsable de la subida del documento o 0 si no. Obligatorio
+`document_ids` | _string_ | Ids de documentos que se han usado para generar el nuevo documento, seperados por comas. Opcional
+
 
 ### Ejemplo
 
@@ -27,6 +30,8 @@ curl --location --request POST 'https://calculatuindemnizacion.es/api/documents/
 --header 'Authorization: Bearer {access_token}' \
 --form 'client_id="{client_id}"'
 --form 'type="{type}"' \
+--form 'notify="{notify}"' \
+--form 'document_ids="{document_ids}"' \
 --form 'file=@{file}' \
 ```
 
