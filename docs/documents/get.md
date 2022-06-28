@@ -48,6 +48,7 @@ Nombre |  | Tipo | Comentarios
 . | `created_at` | _string_ | Fecha de creación del documento en formato _YYYY-MM-DD HH:mm:ss_
 . | `updated_at` | _string_ | Fecha de última modificación del documento en formato _YYYY-MM-DD HH:mm:ss_
 . | `uploaded_by` | _string_ | Nombre de la persona que ha subido el documento
+. | `page_count` | _int_ | Número de páginas del documento si es PDF. 0 en caso contrario
 . | `type_id` | _int_ | Id del tipo de documento
 . | `type_name` | _string_ | Tipo de documento
 . | `description` | _string_ | Descripción
@@ -71,6 +72,7 @@ Por ejemplo:
             "created_at": "2022-02-17 15:57:20",
             "updated_at": "2022-02-17 15:57:20",
             "uploaded_by": "John Doe",
+            "page_count": 2,
             "type_id": 1,
             "type_name": "Designa Firamda",
             "description": "Lorem ipsum dolor sit amet"
@@ -88,6 +90,7 @@ Por ejemplo:
             "created_at": "2022-02-17 16:46:39",
             "updated_at": "2022-02-17 16:46:39",
             "uploaded_by": "John Doe",
+            "page_count": 4,
             "type_id": 1,
             "type_name": "Designa Firamda",
             "description": "Lorem ipsum dolor sit amet"
