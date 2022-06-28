@@ -36,6 +36,7 @@ La respuesta retorna los siguientes valores:
 Nombre | Tipo | Comentarios 
 --- | --- | --- |
 `id` | _int_ | Identificador del cliente
+`code` | _string_ | ID interno
 `name` | _string_ | Nombre completo del cliente
 `email` | _string_ | Email del cliente
 `phone` | _string_ | Teléfono del cliente
