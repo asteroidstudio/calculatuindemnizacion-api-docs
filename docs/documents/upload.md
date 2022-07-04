@@ -21,7 +21,7 @@ Nombre | Tipo |  Comentarios
 `file` | _file_ | Fichero a subir. Formato jpg, png, pdf, doc, docx, xls, xlsx, msg. Tamaño máximo 12MB. Obligatorio
 `notify` | _int_ | 1 para noticar el responsable de la subida del documento o 0 si no. Obligatorio
 `document_ids` | _string_ | Ids de documentos que se han usado para generar el nuevo documento, seperados por comas. Opcional
-
+`description` | _string_ | Descripción, comentarios o observaciones del documento. Opcional
 
 ### Ejemplo
 
@@ -33,6 +33,7 @@ curl --location --request POST 'https://calculatuindemnizacion.es/api/documents/
 --form 'notify="{notify}"' \
 --form 'document_ids="{document_ids}"' \
 --form 'file=@{file}' \
+--form 'description="{description}"'
 ```
 
 :::note Nota

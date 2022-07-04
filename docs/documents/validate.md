@@ -18,6 +18,7 @@ Nombre | Tipo |  Comentarios
 --- | --- | --- | 
 `id` | _int_ | Identificador del documento. Obligatorio
 `type` | _int_ | Tipo de documento. Obligatorio
+`description` | _string_ | Descripción, comentarios o observaciones del documento. Opcional
 
 
 ### Ejemplo
@@ -26,7 +27,8 @@ Nombre | Tipo |  Comentarios
 curl --location --request POST 'https://calculatuindemnizacion.es/api/documents/validate'  \
 --header 'Authorization: Bearer {access_token}' \
 --form 'id="{id}"' \
---form 'type="{type}"'
+--form 'type="{type}"' \
+--form 'description="{description}"'
 ```
 
 :::note Nota
