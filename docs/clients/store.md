@@ -21,9 +21,9 @@ Nombre | Tipo |  Comentarios
 `email` | _string_ | Email del cliente. Debe ser único. Obligatorio
 `phone` | _string_ | Teléfono. Obligatorio
 `dni` | _string_ | DNI/NIF del cliente. Opcional
-`injured_address` | _string_ | Dirección del cliente. Opcional
-`injured_city` | _string_ | Población del cliente. Opcional
-`injured_cp` | _string_ | Código Postal del cliente. Opcional
+`address` | _string_ | Dirección del cliente. Opcional
+`city` | _string_ | Población del cliente. Opcional
+`cp` | _string_ | Código Postal del cliente. Opcional
 `score`| _int_ | Valoración de la calculadora. Opcional
 
 ### Ejemplo
