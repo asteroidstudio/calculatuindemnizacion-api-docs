@@ -11,21 +11,26 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 Crear un fichero **.env** como copia de **.env.example** y rellenar con los datos
 
 ```
-$ npm i
+npm i
 ```
 
 ### Local Development
 
 ```
-$ npm start
+npm start
 ```
 
 ### Deployment
 
-En el branch master
+Desde el branch master
 
 ```
-$ npm run deploy
+npm run deploy
 ```
 
+Desde el branch develop
+
+```
+git push && git checkout master && git merge develop && git push && npm run deploy && git checkout develop 
+```
 
