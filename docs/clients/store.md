@@ -31,7 +31,7 @@ Nombre | Tipo |  Comentarios
 ```shell
 curl --location --request POST 'https://calculatuindemnizacion.es/api/clients'  \
 --header 'Authorization: Bearer {access_token}' \
---form 'name="{name}"'
+--form 'name="{name}"' \
 --form 'email="{email}"' \
 --form 'phone="{phone}"' \
 ```
